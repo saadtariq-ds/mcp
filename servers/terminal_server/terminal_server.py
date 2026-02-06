@@ -2,7 +2,7 @@ import os
 import subprocess
 from mcp.server.fastmcp import FastMCP
 
-mcp = FastMCP("terminal-server")
+mcp = FastMCP("terminal")
 DEFAULT_WORKSPACE = os.path.expanduser("~/mcp/workspace")
 
 @mcp.tool()
