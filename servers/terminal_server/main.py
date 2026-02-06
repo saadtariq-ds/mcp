@@ -23,7 +23,7 @@ async def run_command(command: str) -> str:
         result = subprocess.run(
             command,
             shell=True,
-            cwd=DEFAULT_WORKSPACE,
+            cwd=str(DEFAULT_WORKSPACE),
             capture_output=True,
             text=True,
         )
