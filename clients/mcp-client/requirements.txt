@@ -5,3 +5,6 @@ langchain
 langgraph
 langchain_mcp_adapters
 langchain_google_genai
+nest-asyncio
+pillow
+streamlit

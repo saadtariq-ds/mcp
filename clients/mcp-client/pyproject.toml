@@ -11,5 +11,8 @@ dependencies = [
     "langchain-mcp-adapters>=0.2.1",
     "langgraph>=1.0.8",
     "mcp>=1.26.0",
+    "nest-asyncio>=1.6.0",
+    "pillow>=12.1.0",
     "python-dotenv>=1.2.1",
+    "streamlit>=1.54.0",
 ]
